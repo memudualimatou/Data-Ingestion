@@ -47,4 +47,3 @@ def col_header_val(df, table_config):
         print("Following YAML columns are not in the file uploaded", missing_YAML_file)
         logging.info(f'df columns: {df.columns}')
         logging.info(f'expected columns: {expected_col}')
-        return 0
